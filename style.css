@@ -75,6 +75,12 @@
          padding: 1rem 0 0 0;
     }
 }
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
  .welcome-section-container {
      display: flex;
      flex-direction: column;
@@ -87,16 +93,19 @@
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
+     animation: typing 2s steps(20, end) 1s forwards;
 }
  .dev-name {
      font-size: 4rem;
      color: rgba(253, 253, 253, 0.733);
      text-shadow: 2px 2px 1px rgb(3, 3, 3);
+     animation: typing 2s steps(20, end) 1s forwards;
 }
  .dev-position {
      font-size: 2rem;
      padding-top: 1rem;
      color: rgba(185, 79, 79, 0.89);
+     animation: typing 2s steps(20, end) 1s forwards;
 }
 /* Responsive navbar/Landing Page styles */
  @media (max-width: 765px) {
