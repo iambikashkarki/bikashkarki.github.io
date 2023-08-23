@@ -56,9 +56,9 @@
      transition: color 0.7s;
 }
  .navbar-items a:hover {
-     background-image: linear-gradient(to right, rgba(235, 17, 17, 0.8),rgba(17, 111, 235, 0.8));
-     color: black;
-     box-shadow: 1px 0 2px rgb(231, 219, 219);
+/*      background-image: linear-gradient(to right, rgba(235, 17, 17, 0.8),rgba(17, 111, 235, 0.8)); */
+     color: green;
+/*      box-shadow: 1px 0 2px rgb(231, 219, 219); */
 }
 /* Mobile Responsive Navbar */
  @media (max-width: 765px) {
